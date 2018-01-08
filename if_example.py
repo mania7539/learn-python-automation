@@ -28,3 +28,12 @@ elif age > 1000:
     print("You are not Alice, grannie.");
 
 
+# Truthy and Falsey condition
+print("Enter a name.");
+name = input();
+if name:    # this is what we call truthy and falsey conditioning
+    print("Thank you for entering a name.");
+else:
+    print("You did not enter a name.");
+
+
