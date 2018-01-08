@@ -1,9 +1,11 @@
+# introduce if code block
 name = "Alice";
 if name == "Alice":
     print("Hi Alice");
 print("Done");
 
 
+# if, else
 print("Please enter your password: ");
 password = input();
 
@@ -13,6 +15,7 @@ else:
     print("Wront password.");
 
 
+# if, elif
 name = "Bob";
 age = 3000;
 if name == "Alice":
@@ -23,4 +26,5 @@ elif age > 2000:
     print("Unlike you, Alice is not an undead, immortal vampire.");
 elif age > 1000:
     print("You are not Alice, grannie.");
+
 
