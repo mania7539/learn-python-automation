@@ -30,7 +30,7 @@ print(num);
 """output: 2, 10, 8, ..."""
 
 
-# Use sys.exit() to terminate a python program early
+# Use sys.exit() to terminate a python program immediately
 """
 import sys;
 print("Hello");
@@ -40,5 +40,17 @@ print("Goodbye");
 """output: Hello (Console exits so "Goodbye" not printed)"""
 
 
-# 
+# Using pyperclip module
+# pip install pyperclip
+
+import pyperclip;
+pyperclip.copy("Hello world!");
+pyperclip.paste();
+
+
+"""output: Hello world! (in your clipboard, so you can paste with CTRl+v"""
+
+
+
+
 
